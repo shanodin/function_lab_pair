@@ -97,7 +97,7 @@ end
 
 #--- 15 ---
 def volume_of_cube(n)
-  volume_of_cube = n * n * n
+  return n * n * n
 end
 
 #--- 16---

@@ -73,21 +73,18 @@ class Functions_Practice < MiniTest::Test
 
 #--- 15 ---
   def test_volume_of_cube()
-    volume_of_cube = ( 3 * 3 * 3 )
-    assert_equal( 27, volume_of_cube )
+    assert_equal( 27, volume_of_cube(3) )
   end
 
 #--- 16 ---
   def test_fahrenheit_to_celsius()
-    celsius = ( ( 50 - 32 ) / 1.8 )
-    assert_equal(10, celsius)
+    assert_equal(10, farenheit_to_celsius(50))
   end
 
   #Further
 
   #Given the length of a side of a cube calculate the volume
   #cube volume = side x side x side (side^3)
-
 
 
   #Given the radius of a sphere calculate the volume
