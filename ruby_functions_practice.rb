@@ -74,14 +74,14 @@ def number_to_short_month_name(n)
 end
 
 # def number_to_short_month_name(n)
-# case n
-# when 1
-#   short_month_string = number_to_full_month_name(1)[0..2]
-# when 3
-#   short_month_string = number_to_full_month_name(3)[0..2]
-# when 9
-#   short_month_string = number_to_full_month_name(9)[0..2]
-# end
+#   case n
+#     when 1
+#       short_month_string = number_to_full_month_name(1)[0..2]
+#     when 3
+#       short_month_string = number_to_full_month_name(3)[0..2]
+#     when 9
+#       short_month_string = number_to_full_month_name(9)[0..2]
+#   end
 # end
 
 # def number_to_short_month_name(n)
