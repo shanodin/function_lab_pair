@@ -38,8 +38,50 @@ def add_string_as_number(str1, str2)
   return string
 end
 
-def number_to_full_month_name()
-  first_month_string = "January"
-  third_month_string = "March".to_i = 3
-  ninth_month_string = "September".to_i = 9
+# def number_to_full_month_name(n)
+# case n
+# when 1
+#   first_month_string = "January"
+# when 3
+#   third_month_string = "March"
+# when 9
+#   ninth_month_string = "September"
+# end
+# end
+
+def number_to_full_month_name(n)
+  case n
+  when 1
+    return "January"
+  when 3
+    return "March"
+  when 9
+    return "September"
+  end
 end
+
+def number_to_short_month_name(n)
+short_month_string = number_to_full_month_name(n)[0..2]
+end
+
+# def number_to_short_month_name(n)
+# case n
+# when 1
+#   short_month_string = number_to_full_month_name(1)[0..2]
+# when 3
+#   short_month_string = number_to_full_month_name(3)[0..2]
+# when 9
+#   short_month_string = number_to_full_month_name(9)[0..2]
+# end
+# end
+
+# def number_to_short_month_name(n)
+#   case n
+#   when 1
+#     return "Jan"
+#   when 3
+#     return "Mar"
+#   when 9
+#     return "Sep"
+#   end
+# end
