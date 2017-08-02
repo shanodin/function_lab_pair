@@ -126,3 +126,9 @@ end
 def farenheit_to_celsius(n)
   celsius = ( ( n - 32 ) / 1.8 )
 end
+
+#--- 17---
+#def volume_of_sphere(radius)
+#pi = 3.1415926
+#volume = ( 4.0 / 3.0 ) * pi * ( radius ** 3 )
+#end

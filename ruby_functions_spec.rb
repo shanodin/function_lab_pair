@@ -86,11 +86,19 @@ class Functions_Practice < MiniTest::Test
   #Given the length of a side of a cube calculate the volume
   #cube volume = side x side x side (side^3)
 
+#--- 17---
 
   #Given the radius of a sphere calculate the volume
   def test_volume_of_sphere()
     #add test code here
   end
+
+  #def test_volume_of_sphere()
+  #radius = 2
+  #volume = volume_of_sphere(radius)
+  #rounded = volume.round(2)
+  #assert_equal(33.51, rounded)
+  #end
 
   #Given a value in farenheit, convert this into celsius.
   #celsius = (farenheit - 32)x1.8
