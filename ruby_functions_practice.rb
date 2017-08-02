@@ -10,11 +10,19 @@ def add(n1, n2)
   return sum
 end
 
+#def add(n1, n2)
+#return n1 + n2
+#end
+
 #--- 3 ---
 def subtract(n1, n2)
   difference = n1 - n2
   return difference
 end
+
+#def subtract(n1, n2)
+#return n1 - n2
+#end
 
 #--- 4 ---
 def multiply(n1, n2)
@@ -22,16 +30,28 @@ def multiply(n1, n2)
   return multiply
 end
 
+#def multiply(n1, n2)
+#return n1 * n2
+#end
+
 #--- 5 ---
 def divide(n1, n2)
   divide = n1 / n2
   return divide
 end
 
+#def divide(n1, n2)
+#return n1 / n2
+#end
+
 #--- 6 ---
 def length_of_string(string)
   string = "A string of length 21".length
 end
+
+#def length_of_string(string)
+#return string.length
+#end
 
 #--- 7 ---
 def join_string(str1, str2)
@@ -68,10 +88,12 @@ end
 # end
 # end
 
+
 #--- 12,13,14 ---
 def number_to_short_month_name(n)
   short_month_string = number_to_full_month_name(n)[0..2]
 end
+#short_month_string.slice(0, 3)
 
 # def number_to_short_month_name(n)
 #   case n
